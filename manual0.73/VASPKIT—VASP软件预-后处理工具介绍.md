@@ -4,7 +4,7 @@
 [TOC]
 ### 1. VASPKIT简介
 `VASP`的全称`Vienna Ab-initio Simulation Package`，是维也纳大学Hafner小组开发的进行电子结构计算和量子力学-分子动力学模拟软件包。它是目前材料模拟和计算物质科学研究中最流行的商用软件之一。与Material Studio软件包中的`CASTEP`功能类似，但是`VASP`的精度相对要高一点。不同于`CASTEP`的图形界面，`VASP`是一套没有图形界面的计算软件，建模、可视化、数据分析都需要依赖第三方工具如 P4VASP、ASE、Pymatgen、VESTA 软件等。VESTA、P4VASP 主要是用来建模、可视化和分析部分数据。而 ASE、Pymatgen 这些软件擅长于数据处理，但是安装比较麻烦，同时入门门槛比较高，需要使用者有一定的编程水平。`VASP`用户的学科分布很广，有做催化的，有做光学的，有做材料的，各个领域的数据后处理方式大相径庭。很多用户开发并贡献了自己所在领域用到的的脚本或者小程序，本人就开发了一款用来处理结构文件的`POSCARtookit`脚本。但是对于新用户来说，找到并成功使用这些脚本是不太容易的。因此一款容易上手、功能强大的预-后数据处理软件`vaspkit`应运而生。
-最新版的`vaspkit`是王伟老师、[许楠](https://github.com/tamaswells)、刘锦程，[唐刚](https://github.com/obaica)，[李强](https://github.com/bigbrosci)和[乐平](https://github.com/LePingKYXK)共同努力的成果。`vaspkit 0.72`版本相对于之前的版本做了很多菜单调整，将功能相似的进行了归类，优化了一些已有功能，并增加了一些与催化有关的功能。`VASPKIT release` 版本是一款用`FORTRAN`编写，在`LINUX`环境下运行的二进制软件。它几乎不依赖于其他库，软件体积仅仅5.0M，无需安装即可使用，同时`EXAMPLES`目录下面有主要功能的测试例子，方便用户学习使用。
+最新版的`vaspkit`是[王伟老师](https://github.com/wangvei)、[许楠](https://github.com/tamaswells)、[刘锦程](https://github.com/lalaheihaihei)，[唐刚](https://github.com/obaica)，[李强](https://github.com/bigbrosci)和[乐平](https://github.com/LePingKYXK)共同努力的成果。`vaspkit 0.72`版本相对于之前的版本做了很多菜单调整，将功能相似的进行了归类，优化了一些已有功能，并增加了一些与催化有关的功能。`VASPKIT release` 版本是一款用`FORTRAN`编写，在`LINUX`环境下运行的二进制软件。它几乎不依赖于其他库，软件体积仅仅5.0M，无需安装即可使用，同时`EXAMPLES`目录下面有主要功能的测试例子，方便用户学习使用。
 
 **主要功能有**：
 
